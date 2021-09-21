@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivityOne"
+    tools:showIn="@layout/activity_scrolling_one">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+        <TextView
+            android:id="@+id/q1T"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.What is the size of byte variable?"/>
+
+        <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q1rb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8 bit"/>
+
+            <RadioButton
+                android:id="@+id/q1rb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="16 bit"/>
+
+            <RadioButton
+                android:id="@+id/q1rb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="32 bit"/>
+
+            <RadioButton
+                android:id="@+id/q1rb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="64 bit"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q2T"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.What is the size of double variable?"/>
+
+        <RadioGroup
+            android:id="@+id/rg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q2rb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8 bit"/>
+
+            <RadioButton
+                android:id="@+id/q2rb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="16 bit"/>
+
+            <RadioButton
+                android:id="@+id/q2rb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="32 bit"/>
+
+            <RadioButton
+                android:id="@+id/q2rb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="64 bit"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q3T"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. What is the default value of byte variable?"/>
+
+        <RadioGroup
+            android:id="@+id/rg3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q3rb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+
+            <RadioButton
+                android:id="@+id/q3rb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0.0"/>
+
+            <RadioButton
+                android:id="@+id/q3rb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Null"/>
+
+            <RadioButton
+                android:id="@+id/q3rb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Not defined"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q4T"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Which of the following is true about String?"/>
+
+        <RadioGroup
+            android:id="@+id/rg4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q4rb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="String is mutable."/>
+
+
+            <RadioButton
+                android:id="@+id/q4rb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="String is immutable."/>
+
+            <RadioButton
+                android:id="@+id/q4rb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="String is a data type."/>
+
+            <RadioButton
+                android:id="@+id/q4rb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="None of the above."/>
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q5T"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.Method Overriding is an example of"/>
+
+        <RadioGroup
+            android:id="@+id/rg5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q5rb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Static Binding."/>
+
+            <RadioButton
+                android:id="@+id/q5rb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dynamic Binding."/>
+
+
+            <RadioButton
+                android:id="@+id/q5rb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Both of the above."/>
+
+            <RadioButton
+                android:id="@+id/q5rb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="None of the above."/>
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submitB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

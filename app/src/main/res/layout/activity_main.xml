@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/checkEqual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Check Equal" />
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/calculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculator" />
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/countdownTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Countdown Timer" />
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/daysDiffActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Days Different" />
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/logActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log" />
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/radiobuttonActivity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radio Button" />
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/scrollingActivityOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scrolling" />
+
+</LinearLayout>
